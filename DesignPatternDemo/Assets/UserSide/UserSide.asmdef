@@ -1,0 +1,16 @@
+{
+    "name": "UserSide",
+    "references": [
+        "GUID:7cd93adf679a5b9418fb87f9408a96ce",
+        "GUID:c9a575740f85b9342a2766f24d22040a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
