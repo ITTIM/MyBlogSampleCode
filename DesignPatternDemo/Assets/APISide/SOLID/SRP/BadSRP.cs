@@ -18,6 +18,14 @@ namespace SOLID
             Fly,
         }
 
+        /// <summary>
+        /// It is not good idea to create a powerful function
+        /// In this case, it provides 6 kind of ability
+        /// </summary>
+        /// <param name="thingType"></param>
+        /// <param name="value"></param>
+        /// <param name="direction"></param>
+        /// <param name="duration"></param>
         public static void DoSomething(ThingType thingType, float value = 0f, float direction = 0f, float duration = 0f)
         {
             switch (thingType)

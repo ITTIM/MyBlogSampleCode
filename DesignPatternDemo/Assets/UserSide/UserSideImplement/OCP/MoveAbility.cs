@@ -9,9 +9,13 @@ namespace User.Implement
 
     public sealed class MoveAbility : IOCPBehaviour
     {
+        private class Wheel { }
+
+        private Wheel wheel;
+
         public void DoWhatEverYouWant()
         {
-            Debug.Log(@"I can move");
+            Debug.Log(@"I have wheel, so I can move");
         }
     }
 }

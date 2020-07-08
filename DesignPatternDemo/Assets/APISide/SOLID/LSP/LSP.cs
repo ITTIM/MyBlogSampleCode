@@ -7,6 +7,17 @@ namespace SOLID
     using System.Collections.Generic;
     using UnityEngine;
 
+    /// <summary>
+    /// Liskov Substitution Principle:
+    /// If S is a subtype of T
+    /// Then objects of type T may be replaced
+    /// with objects of type S
+    /// without altering any of the desirable properties of the program
+    /// 
+    /// In this case, LSP don't really know the instance type
+    /// As long as the instance implement the IUnit interface
+    /// And LSP will works fine with it
+    /// </summary>
     public sealed class LSP
     {
         private List<IUnit> unitList = new List<IUnit>();

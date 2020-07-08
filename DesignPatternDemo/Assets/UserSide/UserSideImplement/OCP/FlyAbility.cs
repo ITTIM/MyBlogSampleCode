@@ -9,9 +9,13 @@ namespace User.Implement
 
     public sealed class FlyAbility : IOCPBehaviour
     {
+        private class Wings {}
+
+        private Wings wings;
+
         public void DoWhatEverYouWant()
         {
-            Debug.Log(@"I can fly");
+            Debug.Log(@"I have wings, so I can fly");
         }
     }
 }

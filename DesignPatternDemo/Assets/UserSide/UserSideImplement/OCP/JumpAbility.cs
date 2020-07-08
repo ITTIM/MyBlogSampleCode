@@ -9,9 +9,13 @@ namespace User.Implement
 
     public sealed class JumpAbility : IOCPBehaviour
     {
+        private class Legs { }
+
+        private Legs legs;
+
         public void DoWhatEverYouWant()
         {
-            Debug.Log(@"I can jump");
+            Debug.Log(@"I have legs, so I can jump");
         }
     }
 }
